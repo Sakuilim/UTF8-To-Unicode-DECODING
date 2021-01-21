@@ -35,6 +35,7 @@ namespace UNICODE_TO_UTF8_Csharp
         }
         static void First()
         {
+            int laik = 0;
             string b;
             Console.WriteLine("Irasykite simbolio koda");
             bool good = false;
@@ -50,7 +51,7 @@ namespace UNICODE_TO_UTF8_Csharp
                 else
                 {
                     good = true;
-                    FileReader.Lines(b);
+                    FileReader.Lines(b,laik);
                 }
             }
         }
@@ -69,7 +70,7 @@ namespace UNICODE_TO_UTF8_Csharp
                     return true;
                 case "2":
                     Secnd();
-                    Thread.Sleep(2500);
+                   // Thread.Sleep(2500);
                     return true;
                 case "3":
                     return false;

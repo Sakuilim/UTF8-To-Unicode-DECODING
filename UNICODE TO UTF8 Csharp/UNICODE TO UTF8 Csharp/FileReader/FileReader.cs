@@ -8,19 +8,24 @@ namespace UNICODE_TO_UTF8_Csharp
     public class FileReader
     {
 
-        public static void Lines(string b)
+        public static void Lines(string b, int laik)
         {
             int baitas = 0;
             List<int> result = new List<int>();
             {
+
                 int h = int.Parse(b);
                 string unicode = h.ToString("X4");
                 unicode = string.Format("U+{0}", unicode);
                 char c = (char)h;
-                Console.WriteLine(unicode);
-                Byte(result, h, baitas);
-                Console.WriteLine(c);
-                Console.ReadLine();
+                if (laik != 2)
+                {
+                    Console.WriteLine(unicode);
+                    Byte(result, h, baitas);
+                    Console.WriteLine(c);
+                    Console.ReadLine();
+                }
+
             }
         }
         public static int Byte(List<int> result, int b, int baitas)
@@ -268,6 +273,7 @@ namespace UNICODE_TO_UTF8_Csharp
         }
         public static char Text(char x, string c, int b, List<string> uni, List<string> dec)
         {
+            int laik = 2;
             int tmp = 0;
             foreach (string cod in dec)
             {
@@ -276,7 +282,7 @@ namespace UNICODE_TO_UTF8_Csharp
                     int decValue = int.Parse(uni[tmp], System.Globalization.NumberStyles.HexNumber);
                     string sk = decValue.ToString();
                     x = (char)decValue;
-                    Lines(sk);
+                    Lines(sk, laik);
 
                     return x;
                 }
