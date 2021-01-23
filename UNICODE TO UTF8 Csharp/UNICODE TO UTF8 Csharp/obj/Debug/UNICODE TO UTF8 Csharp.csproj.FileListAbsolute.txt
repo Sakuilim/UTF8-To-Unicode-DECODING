@@ -12,3 +12,10 @@ C:\Users\Marius Milius\Documents\GitHub\UTF8-To-Unicode-DECODING\UNICODE TO UTF8
 C:\Users\Marius Milius\Documents\GitHub\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\obj\Debug\UNICODE TO UTF8 Csharp.csproj.CoreCompileInputs.cache
 C:\Users\Marius Milius\Documents\GitHub\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\obj\Debug\UNICODE TO UTF8 Csharp.exe
 C:\Users\Marius Milius\Documents\GitHub\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\obj\Debug\UNICODE TO UTF8 Csharp.pdb
+C:\Users\miliu\Documents\GitHub\Restaurant Manager-Database\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\bin\Debug\UNICODE TO UTF8 Csharp.exe.config
+C:\Users\miliu\Documents\GitHub\Restaurant Manager-Database\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\bin\Debug\UNICODE TO UTF8 Csharp.exe
+C:\Users\miliu\Documents\GitHub\Restaurant Manager-Database\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\bin\Debug\UNICODE TO UTF8 Csharp.pdb
+C:\Users\miliu\Documents\GitHub\Restaurant Manager-Database\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\obj\Debug\UNICODE TO UTF8 Csharp.csprojAssemblyReference.cache
+C:\Users\miliu\Documents\GitHub\Restaurant Manager-Database\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\obj\Debug\UNICODE TO UTF8 Csharp.csproj.CoreCompileInputs.cache
+C:\Users\miliu\Documents\GitHub\Restaurant Manager-Database\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\obj\Debug\UNICODE TO UTF8 Csharp.exe
+C:\Users\miliu\Documents\GitHub\Restaurant Manager-Database\UTF8-To-Unicode-DECODING\UNICODE TO UTF8 Csharp\UNICODE TO UTF8 Csharp\obj\Debug\UNICODE TO UTF8 Csharp.pdb

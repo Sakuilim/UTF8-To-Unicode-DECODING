@@ -5,7 +5,7 @@ using System.Text;
 
 namespace UNICODE_TO_UTF8_Csharp
 {
-    public class FileReader
+    public static class FileReader
     {
 
         public static void Lines(string b, int laik)
@@ -72,7 +72,7 @@ namespace UNICODE_TO_UTF8_Csharp
         }
         public static List<int> UTF8(List<int> result, int baitas, int b)
         {
-            List<int> ats = new List<int>();
+            List<int> ats;
             if (baitas == 1)
             {
                 ats = result;
@@ -117,14 +117,9 @@ namespace UNICODE_TO_UTF8_Csharp
                 char[] atc = new char[24];
                 atc[0] = temp[0];
                 atc[1] = temp[1];
-                //  atc[2] = ' ';
                 atc[3] = temp[2];
                 atc[4] = temp[3];
                 string gg = new string(atc);
-                for (int i = 0; i < atc.Length; i++)
-                {
-                    Console.Write(atc[i]);
-                }
                 Console.Write(gg);
                 Console.WriteLine();
 
@@ -156,18 +151,12 @@ namespace UNICODE_TO_UTF8_Csharp
                 char[] atc = new char[24];
                 atc[0] = temp[0];
                 atc[1] = temp[1];
-                // atc[2] = ' ';
                 atc[2] = temp[2];
                 atc[3] = temp[3];
-                //  atc[5] = ' ';
                 atc[4] = temp[4];
                 atc[5] = temp[5];
                 string gg = new string(atc);
-                for (int i = 0; i < atc.Length; i++)
-                {
-                    Console.Write(atc[i]);
-                }
-                File.WriteAllText("String.txt", gg);
+                Console.Write(gg);
                 Console.WriteLine();
             }
             else if (baitas == 4)
@@ -216,10 +205,6 @@ namespace UNICODE_TO_UTF8_Csharp
                 atc[10] = temp[7];
                 string gg = new string(atc);
                 File.WriteAllText("String.txt", ToHexString(gg));
-                for (int i = 0; i < atc.Length; i++)
-                {
-                    Console.Write(atc[i]);
-                }
                 Console.Write(gg);
                 Console.WriteLine();
             }
@@ -228,7 +213,9 @@ namespace UNICODE_TO_UTF8_Csharp
         public static string BinaryStringToHexString(string binary)
         {
             if (string.IsNullOrEmpty(binary))
+            {
                 return binary;
+            }
 
             StringBuilder result = new StringBuilder(binary.Length / 8 + 1);
 

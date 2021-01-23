@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace UNICODE_TO_UTF8_Csharp
 {
-    public class Program
+    public static class Program
     {
         static List<char> txt = new List<char>();
         public static void Main(string[] args)
@@ -70,7 +70,6 @@ namespace UNICODE_TO_UTF8_Csharp
                     return true;
                 case "2":
                     Secnd();
-                   // Thread.Sleep(2500);
                     return true;
                 case "3":
                     return false;
